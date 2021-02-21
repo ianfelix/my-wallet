@@ -1,7 +1,11 @@
+import { Layout } from './shared/components/Layout';
+import GlobalStyles from './shared/styles/GlobalStyles';
+
 export const App = () => {
   return (
-    <div>
-      <h1>Hello World!</h1>
-    </div>
+    <>
+      <GlobalStyles />
+      <Layout />
+    </>
   );
 };

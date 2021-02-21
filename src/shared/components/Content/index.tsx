@@ -1,5 +1,5 @@
 import { Presentational } from './Presentational';
 
-export const Dashboard = () => {
+export const Content = () => {
   return <Presentational />;
 };
