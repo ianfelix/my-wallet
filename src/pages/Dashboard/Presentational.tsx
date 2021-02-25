@@ -1,11 +1,10 @@
-import { Aside } from '../../shared/components/Aside';
+import { ContenteHeader } from '../../shared/components/ContentHeader';
 import * as S from './styles';
 
 export const Presentational = () => {
   return (
     <S.Container>
-      <h1>Dashboard</h1>
-      <Aside />
+      <ContenteHeader />
     </S.Container>
   );
 };

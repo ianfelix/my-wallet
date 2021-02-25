@@ -1,5 +1,6 @@
 import { Presentational } from './Presentational';
+import { ContentProps } from './types';
 
-export const Content = () => {
-  return <Presentational />;
+export const Content = ({ children }: ContentProps) => {
+  return <Presentational children={children} />;
 };
